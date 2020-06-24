@@ -2,7 +2,7 @@
 
 Author: Daniel (danielw10001@gmail.com), BUAA Dept.6 SCSE
 
-![Rendered PDF](README.pdf)
+[Rendered PDF](README.pdf)
 
 [TOC]
 
