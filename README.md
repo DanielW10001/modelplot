@@ -1,5 +1,3 @@
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 # model
 
 Author: Daniel (danielw10001@gmail.com), BUAA Dept.6 SCSE
@@ -9,13 +7,7 @@ Author: Daniel (danielw10001@gmail.com), BUAA Dept.6 SCSE
 一个描述对异性的主动程度与不孤独终老的概率之间关系的模型. 使用余生尝试与异性有效认识的次数来描述对异性的主动程度.
 注意到对异性的主动程度对每一次尝试中两人合适成为恋人的概率的影响.
 
-$$
-\begin{aligned}
-Let:&\ N = 余生尝试与异性有效认识的次数 \in N_{自然数}\\
-Let:&\ P(N) = 余生尝试与异性有效认识N次时, 每一次尝试中两人合适成为恋人的概率 \\
-maximize:&\ F(N) = (1-(1-P(N))^N) \equiv 不孤独终老的可能性
-\end{aligned}
-$$
+<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cbegin%7Baligned%7D%0ALet%3A%26%5C%20N%20%3D%20%E4%BD%99%E7%94%9F%E5%B0%9D%E8%AF%95%E4%B8%8E%E5%BC%82%E6%80%A7%E6%9C%89%E6%95%88%E8%AE%A4%E8%AF%86%E7%9A%84%E6%AC%A1%E6%95%B0%20%5Cin%20N_%7B%E8%87%AA%E7%84%B6%E6%95%B0%7D%5C%5C%0ALet%3A%26%5C%20P%28N%29%20%3D%20%E4%BD%99%E7%94%9F%E5%B0%9D%E8%AF%95%E4%B8%8E%E5%BC%82%E6%80%A7%E6%9C%89%E6%95%88%E8%AE%A4%E8%AF%86N%E6%AC%A1%E6%97%B6%2C%20%E6%AF%8F%E4%B8%80%E6%AC%A1%E5%B0%9D%E8%AF%95%E4%B8%AD%E4%B8%A4%E4%BA%BA%E5%90%88%E9%80%82%E6%88%90%E4%B8%BA%E6%81%8B%E4%BA%BA%E7%9A%84%E6%A6%82%E7%8E%87%20%5C%5C%0Amaximize%3A%26%5C%20F%28N%29%20%3D%20%281-%281-P%28N%29%29%5EN%29%20%5Cequiv%20%E4%B8%8D%E5%AD%A4%E7%8B%AC%E7%BB%88%E8%80%81%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7%0A%5Cend%7Baligned%7D%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\begin{aligned}Let:&\ N = 余生尝试与异性有效认识的次数 \in N_{自然数}\\Let:&\ P(N) = 余生尝试与异性有效认识N次时, 每一次尝试中两人合适成为恋人的概率 \\maximize:&\ F(N) = (1-(1-P(N))^N) \equiv 不孤独终老的可能性\end{aligned}" width="318" height="69" />
 
 以下针对$P(N)$严格单增, 严格单减, 周期变化三类典型情况的典型值分别做讨论.
 
