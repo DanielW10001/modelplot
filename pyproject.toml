@@ -13,7 +13,7 @@ default = true
 python = "^3.8"
 numpy = "^1.19.0"
 matplotlib = "^3.2.2"
-mpmath = "^1.1.0"
+mpmath = "^1.3.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
